@@ -9,10 +9,8 @@ int main()
     string nome; getline(cin, nome);  // ->getline pega o nome completo, incluindo espaços
 
     for (char c : nome) {
-        if (find(vogal.begin(), vogal.end(), c) != vogal.end()) 
-            nivel += 2;
-        else if (find(consoante.begin(), consoante.end(), c) != consoante.end()) 
-            nivel += 1;
+        if (find(vogal.begin(), vogal.end(), c) != vogal.end()) nivel += 2;
+        else if (find(consoante.begin(), consoante.end(), c) != consoante.end()) nivel += 1;
     }
 
     cout << nivel << endl;
