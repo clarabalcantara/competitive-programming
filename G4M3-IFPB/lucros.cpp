@@ -1,10 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*
-4
-1 2 3 4
-OUT: 3
-*/
+
 int main()
 {
     int n; cin >> n;
