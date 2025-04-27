@@ -11,8 +11,7 @@ void add() {
     soma += ns[pointer_right];
   }
 }
-
-void rem() {
+mfvoid rem() {
   soma -= ns[pointer_left];
   ++pointer_left;
  
